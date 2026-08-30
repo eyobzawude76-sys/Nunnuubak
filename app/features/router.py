@@ -22,7 +22,6 @@ api_router.include_router(students_router, prefix="/students", tags=["Students"]
 api_router.include_router(teachers_router, prefix="/teachers", tags=["Teachers"])
 api_router.include_router(departments_router, prefix="/departments", tags=["Departments"])
 api_router.include_router(marks_router, prefix="/marks", tags=["Marks"])
-api_router.include_router(promotions_router, prefix="/promotions", tags=["Promotions"])
 api_router.include_router(reports_router, prefix="/reports", tags=["Reports"])
 api_router.include_router(academic_records_router, prefix="/academic-records", tags=["Academic Records"])
 api_router.include_router(committee_router, prefix="/committee", tags=["Committee"])
