@@ -3,7 +3,7 @@ from app.features.auth import router as auth_router
 from app.features.students import router as students_router
 from app.features.teachers import router as teachers_router
 from app.features.departments import router as departments_router
-from app.features.marks import router as marks_routergi
+from app.features.marks import router as marks_router
 from app.features.reports import router as reports_router
 from app.features.academic_records import router as academic_records_router
 from app.features.committee import router as committee_router
